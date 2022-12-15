@@ -1,5 +1,5 @@
 const mongoose = require('mongoose');
-mongoose.connect('mongodb://localhost/fetcher');
+mongoose.connect('mongodb://localhost/cocktailinfo');
 
 const cocktailSchema = new mongoose.Schema({});
 let Cocktails = mongoose.model('Cocktail', cocktailSchema);

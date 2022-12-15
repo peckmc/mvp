@@ -1,24 +1,27 @@
-import React from 'react';
+import React, { useState, useEffect } from 'react';
 import ReactDOM from 'react-dom';
-import Mongoose from 'mongoose';
+import $ from 'jquery';
 import Cocktail from './components/Cocktail.jsx';
 
-class App extends React.Component {
-  constructor(props) {
-    super(props);
-    this.state = {
-      currentCocktail: []
-    }
-    this.render = this.render.bind(this);
-  }
+function App() {
+  const [cocktail, setCocktail] = useState([]);
 
-  render() {
-    getRandomCocktail();
-    return (<div>
-      <h1>Random Cocktail Recipe Generator</h1>
-      <Cocktail cocktail={this.state.currentCocktail}/>
-    </div>)
-  }
+  useEffect(() => {
+    $.ajax({
+      url: 'http://localhost:1128/cocktails',
+      success: function(cocktailData) {
+        console.log(cocktailData);
+        setCocktail(cocktailData);
+      }
+    });
+   },[]);
+
+  return (
+    <div>
+    <h1>Random Cocktail Recipe Generator</h1>
+    {cocktail && cocktail.name && cocktail.ingredients ? <Cocktail cocktail={cocktail}/> : 'Loading'}
+    </div>
+  );
 }
 
 ReactDOM.render(<App />, document.getElementById('app'));
