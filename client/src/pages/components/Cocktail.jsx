@@ -1,9 +1,20 @@
 import React from 'react';
+import { useNavigate } from "react-router-dom";
 
-const Cocktail = (props) => (
+const Cocktail = (props) => {
+  function handleClick() {
+    props.addToFavorites(props.cocktail._id);
+  }
+  const navigate = useNavigate();
+
+  return (
   <div>
-    <hr/>
     <h1>{props.cocktail.name}</h1>
+    <button onClick={handleClick}>
+      Add to Favorites
+    </button>
+    <button onClick={() => navigate('/favorites')}>Go to Favorites</button>
+    <h1> </h1>
     <div>Category: {props.cocktail.category}</div>
     <div>Glass Type: {props.cocktail.glass}</div>
     <h2>Ingredients</h2>
@@ -27,6 +38,7 @@ const Cocktail = (props) => (
     <hr/>
     <h4>Reload the page for a new drink.</h4>
   </div>
-);
+  );
+}
 
 export default Cocktail;
