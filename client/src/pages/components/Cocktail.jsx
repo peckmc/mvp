@@ -19,7 +19,7 @@ const Cocktail = (props) => {
     <div>Glass Type: {props.cocktail.glass}</div>
     <h2>Ingredients</h2>
     <ul>
-      {props.cocktail.ingredients.map((item) => {
+    {props.cocktail.ingredients.map((item) => {
         if(item.unit === 'cl') {
           return <li>{item.amount * 10} ml {item.ingredient} {item.special}</li>;
         }

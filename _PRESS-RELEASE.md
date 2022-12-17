@@ -18,36 +18,36 @@ Once the project moves into development, the press release can be used as a touc
 
 ## Heading ##
   > Name the product in a way the reader (i.e. your target customers) will understand.
-  Random Podcast Episode Generator
+  Random Cocktail Recipe Generator
 
 ## Sub-Heading ##
   > Describe who the market for the product is and what benefit they get. One sentence only underneath the title.
-  Podcast lovers can stop feeling overwhelmed by the thousands of options when looking for something new to love.
+  If you love cocktails, discover a new and exciting drink!
 
 ## Summary ##
   > Give a summary of the product and the benefit. Assume the reader will not read anything else so make this paragraph good.
-  Click the button and generate a link to a random episode of a random podcast. Listen to something new and refreshing. Or, click the button again to generate another random episode.
+  Just load up the page and receive a recipe for a delicious cocktail at random. If you find something you like, just click 'add to favorites' to save it for next time!
 
 ## Problem ##
   > Describe the problem your product solves.
-  Have you ever finished a great podcast and don't know where to go next? Or just looking for some variety?
+  Do you ever crave a cocktail at the end of a long work day, but you're tired of the same old drinks? Random Cocktail Recipe Generator has your back! Keep refreshing the page until something catches your eye.
 
 ## Solution ##
   > Describe how your product elegantly solves the problem.
-  All the user has to do is click the button, and a Spotify link to a random podcast episode will be generated.
+  Just load the page and a cocktail will be chosen at random from a library of 77 classic drinks.
 
 ## Quote from You ##
   > A quote from a spokesperson in your company.
-  "My vision is for the world of podcasts to be infinite"
+  "Random Cocktail Recipe Generator is a great companion for impressing your friends and family during the holidays."
 
 ## How to Get Started ##
   > Describe how easy it is to get started.
-  Get started right away! Just click the button.
+  Get mixing right away! Just head to the site.
 
 ## Customer Quote ##
   > Provide a quote from a hypothetical customer that describes how they experienced the benefit.
-  "I'm a long-haul trucker and I spend a LOT of time listening to podcasts. They keep me company when the nights get long. Random Podcast Episode Generator has introduced me to some of the most enlightening, funny and educational podcasts I've heard."
+  "This site has made it easy for me to branch out and discover new drinks, and revisit some old ones I'd forgotten about."
 
 ## Closing and Call to Action ##
   > Wrap it up and give pointers where the reader should go next.
-  Give it a try and find out what great podcasts you're missing out on.
+  Give it a try and find out how many great cocktails you're missing out on.
