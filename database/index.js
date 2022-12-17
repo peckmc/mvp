@@ -45,8 +45,8 @@ toggleFavorite = (cocktailId) => {
 getFavorites = () => {
   const favoritesPromise = new Promise(function (resolve, reject) {
     Cocktails.find({ favorite: true })
-    .then(results => {
-      resolve(results);
+    .then(result => {
+      resolve(result);
     })
     .catch(err => {
       reject(err);

@@ -6,7 +6,6 @@ const Layout = () => {
     <>
       <h1>Random Cocktail Recipe Generator</h1>
       <hr/>
-      <></>
       <Outlet />
     </>
   );
